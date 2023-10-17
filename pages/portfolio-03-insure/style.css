@@ -1,0 +1,289 @@
+:root {
+    --cor-principal-01: #5FB4A2;
+    --cor-principal-02: #33323D;
+    --cor-principal-03: #203A4C;
+    --cor-secundaria-01: #FAFAFA;
+    --cor-secundaria-02: #EAEAEB;
+    --font-family: 'Public Sans', sans-serif;
+    --font-family-02: 'Ibarra Real Nova', serif;
+}
+
+.link-portfolio {
+    color: var(--cor-principal-01) !important;
+}
+
+.hero-section {
+    width: 100%;
+}
+
+.hero-section img {
+    width: 100%;
+}
+
+/* MAIN: Aside */
+aside {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+aside div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container-texto-descricao-aside div {
+    padding-top: 20px;
+}
+
+.container-texto-descricao-aside hr {
+    width: 100%;
+
+    border: 0.5px solid var(--cor-principal-02);
+    opacity: 0.15;
+    margin-bottom: 20px;
+}
+
+.container-texto-descricao-aside h2 {
+    font-family: var(--font-family-02);
+    color: var(--cor-principal-02);
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.357143px;
+    line-height: 42px;
+}
+
+.box-textos-descricao-aside p {
+    display: flex;
+    align-items: center;
+
+    font-family: var(--font-family);
+    color: var(--cor-principal-01);
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.texto-descricao-aside {
+    display: flex;
+    align-items: center;
+
+    font-family: var(--font-family);
+    color: var(--cor-principal-02) !important;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400 !important;
+    line-height: 30px;
+}
+
+.boton-box-visit {
+    width: 200px;
+    min-height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px auto;
+
+    border: 1px solid var(--cor-principal-02);
+
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: var(--cor-principal-02);
+    text-decoration: none;
+}
+
+.boton-box-visit:hover {
+    color: var(--cor-secundaria-01);
+    background-color: var(--cor-principal-02);
+}
+
+/* MAIN: Project Box and Preview Static */
+.preview-project-box {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.preview-project-box div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.preview-project-box div h3 {
+    margin-bottom: 20px;
+
+    font-family: var(--font-family-02);
+    color: var(--cor-principal-02);
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: -0.285714px;
+    line-height: 42px;
+}
+
+.texto-descricao-projeto {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+
+    font-family: var(--font-family);
+    color: var(--cor-principal-02) !important;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400 !important;
+    line-height: 30px;
+}
+
+.box-preview-static {
+    width: 100%;
+}
+
+.box-preview-static img {
+    width: 100%;
+
+    margin: 20px auto;
+}
+
+/* LINK SECTION */
+
+body hr {
+    width: 100%;
+
+    border: 0.5px solid var(--cor-principal-02);
+    opacity: 0.15;
+}
+
+.link-section {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-section div img {
+    margin: auto 0;
+}
+
+.link-section a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* LINK SECTION: Previus project */
+.text-left-link {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-left-link h3 {
+    color: var(--cor-principal-02);
+    font-family: var(--font-family-02);
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: -0.285714px;
+    line-height: 36px;
+}
+
+.text-left-link p {
+    color: var(--cor-principal-02);
+    opacity: 0.5;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+/* LINK SECTION Next Project */
+.text-right-link {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-right-link h3 {
+    color: var(--cor-principal-02);
+    font-family: var(--font-family-02);
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: -0.285714px;
+    line-height: 36px;
+}
+
+.text-right-link p {
+    color: var(--cor-principal-02);
+    opacity: 0.5;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: right;
+}
+
+@media only screen and (min-width: 750px) {
+    .hero-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+
+        max-width: 1250px;
+        height: 700px;
+
+        margin: 0 auto;
+        padding: 0 auto;
+        height: 600px;
+    }
+
+    main {
+        margin: 20px auto !important;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 1250px;
+
+        gap: 30px;
+
+    }
+
+    .descricao-projeto-aside {
+        max-width: 400px;
+        max-height: 500px;
+    }
+
+    .preview-project-box {
+        max-width: 680px;
+        max-height: 1200px;
+    }
+
+    .boton-box-visit {
+        margin: 20px 0;
+    }
+
+    body hr {
+        max-width: 1250px;
+        margin: 20px auto;
+    }
+
+    .link-section {
+        max-width: 1250px;
+    }
+}

@@ -1,0 +1,467 @@
+:root {
+    --cor-principal-01: #5FB4A2;
+    --cor-principal-02: #33323D;
+    --cor-principal-03: #203A4C;
+    --cor-secundaria-01: #FAFAFA;
+    --cor-secundaria-02: #EAEAEB;
+    --font-family: 'Public Sans', sans-serif;
+    --font-family-02: 'Ibarra Real Nova', serif;
+}
+
+/* VERSÃO PARA MOBILE: */
+
+.link-portfolio {
+    color: var(--cor-principal-01) !important;
+}
+
+/* Seção Menage: */
+.manage-section {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.manage-section div {
+    flex: 1 1 100px
+}
+
+.manage-section div img {
+    width: 100%;
+}
+
+.manage-container-texto {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.manage-container-texto div {
+    padding-top: 10px;
+    flex: 1 1 50px
+}
+
+.manage-container-texto hr {
+    background-color: var(--cor-principal-02);
+
+    width: 100%;
+    margin-top: 30px;
+}
+
+.manage-container-texto h2 {
+    font-family: var(--font-family-02);
+    color: var(--cor-principal-02);
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.357143px;
+}
+
+.manage-texto {
+    display: flex;
+    align-items: center;
+
+    font-family: var(--font-family);
+    color: var(--cor-principal-02);
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.manage-boton-box-projeto {
+
+    width: 200px;
+    min-height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+
+    border: 1px solid var(--cor-principal-02);
+
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: var(--cor-principal-02);
+    text-decoration: none;
+}
+
+.manage-boton-box-projeto:hover {
+    color: var(--cor-secundaria-01);
+    background-color: var(--cor-principal-02);
+}
+
+/* Seção bookmark: */
+.bookmark-section {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.bookmark-section div {
+    flex: 1 1 200px
+}
+
+.bookmark-section div img {
+    width: 100%;
+}
+
+.bookmark-container-texto {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bookmark-container-texto div {
+    padding-top: 10px;
+    flex: 1 1 50px
+}
+
+.bookmark-container-texto hr {
+    background-color: var(--cor-principal-02);
+    width: 100%;
+    margin-top: 20px;
+}
+
+.bookmark-container-texto h2 {
+    font-family: var(--font-family-02);
+    color: var(--cor-principal-02);
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.357143px;
+}
+
+.bookmark-texto {
+    display: flex;
+    align-items: center;
+
+    font-family: var(--font-family);
+    color: var(--cor-principal-02);
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.bookmark-boton-box-projeto {
+
+    width: 200px;
+    min-height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+
+    border: 1px solid var(--cor-principal-02);
+
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: var(--cor-principal-02);
+    text-decoration: none;
+}
+
+.bookmark-boton-box-projeto:hover {
+    color: var(--cor-secundaria-01);
+    background-color: var(--cor-principal-02);
+}
+
+/* Seção Isure: */
+
+.insure-section {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.insure-section div {
+    flex: 1 1 200px
+}
+
+.insure-section div img {
+    width: 100%;
+}
+
+.insure-container-texto {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.insure-container-texto div {
+    padding-top: 10px;
+    flex: 1 1 50px
+}
+
+.insure-container-texto hr {
+    background-color: var(--cor-principal-02);
+    width: 100%;
+    margin-top: 20px;
+}
+
+.insure-container-texto h2 {
+    font-family: var(--font-family-02);
+    color: var(--cor-principal-02);
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.357143px;
+}
+
+.insure-texto {
+    font-family: var(--font-family);
+    color: var(--cor-principal-02);
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+
+    display: flex;
+    align-items: center;
+}
+
+.insure-boton-box-projeto {
+    width: 200px;
+    min-height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+
+    border: 1px solid var(--cor-principal-02);
+
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: var(--cor-principal-02);
+    text-decoration: none;
+}
+
+.insure-boton-box-projeto:hover {
+    color: var(--cor-secundaria-01);
+    background-color: var(--cor-principal-02);
+}
+
+/* Seção Fylo: */
+.fylo-section {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.fylo-section div {
+    flex: 1 1 200px
+}
+
+.fylo-section div img {
+    width: 100%;
+}
+
+.fylo-container-texto {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fylo-container-texto div {
+    padding-top: 10px;
+    flex: 1 1 50px
+}
+
+.fylo-container-texto hr {
+    background-color: var(--cor-principal-02);
+
+    width: 100%;
+    margin-top: 20px;
+}
+
+.fylo-container-texto h2 {
+    font-family: var(--font-family-02);
+    color: var(--cor-principal-02);
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.357143px;
+}
+
+.fylo-texto {
+    display: flex;
+    align-items: center;
+
+    font-family: var(--font-family);
+    color: var(--cor-principal-02);
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.fylo-boton-box-projeto {
+    width: 200px;
+    min-height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+
+    border: 1px solid var(--cor-principal-02);
+
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: var(--cor-principal-02);
+    text-decoration: none;
+}
+
+.fylo-boton-box-projeto:hover {
+    color: var(--cor-secundaria-01);
+    background-color: var(--cor-principal-02);
+}
+
+/* VERSÃO PARA DESKTOP: */
+
+@media only screen and (min-width: 750px) {
+
+    .manage-section,
+    .insure-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+
+        max-width: 1250px;
+        height: 700px;
+
+        margin: 0 auto;
+        padding: 0 auto;
+        height: 600px;
+    }
+
+    .bookmark-section,
+    .fylo-section {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+
+
+        max-width: 1250px;
+        margin: 0 auto;
+        padding: 0 auto;
+        height: 600px;
+
+        margin: 0 auto;
+
+    }
+
+    .manage-section div,
+    .bookmark-section div,
+    .insure-section div,
+    .fylo-section div {
+        max-height: 500px;
+    }
+
+    .manage-section-imagem,
+    .bookmark-section-imagem,
+    .insure-section-imagem,
+    .fylo-section-imagem {
+        max-width: 540px;
+        margin: auto 0;
+    }
+
+    .manage-section-imagem img,
+    .bookmark-section-imagem img,
+    .insure-section-imagem img,
+    .fylo-section-imagem img {
+        max-width: 100vw;
+        max-height: 100vh;
+
+        margin: auto 0;
+    }
+
+    .manage-container-texto,
+    .insure-container-texto {
+        max-height: 400px;
+        max-width: 380px;
+        padding-left: 15px;
+        margin: auto 0;
+
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+    }
+
+    .bookmark-container-texto,
+    .fylo-container-texto {
+        max-height: 400px;
+        max-width: 380px;
+        padding-right: 15px;
+        margin: auto 0;
+
+
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+    }
+
+    .manage-container-texto hr,
+    .bookmark-container-texto hr,
+    .insure-container-texto hr,
+    .fylo-container-texto hr {
+        margin-top: 0;
+
+    }
+
+    .manage-texto,
+    .bookmark-texto,
+    .insure-texto,
+    .fylo-texto {
+        display: flex;
+        align-items: center;
+
+        max-width: 360px;
+        max-height: 100px;
+    }
+
+    .manage-boton-box-projeto,
+    .bookmark-boton-box-projeto,
+    .insure-boton-box-projeto,
+    .fylo-boton-box-projeto {
+
+        width: 175px;
+        min-height: 48px;
+
+        margin: 0;
+    }
+
+}

@@ -1,0 +1,324 @@
+:root {
+    --cor-principal-01: #5FB4A2;
+    --cor-principal-02: #33323D;
+    --cor-principal-03: #203A4C;
+    --cor-secundaria-01: #FAFAFA;
+    --cor-secundaria-02: #EAEAEB;
+    --font-family: 'Public Sans', sans-serif;
+    --font-family-02: 'Ibarra Real Nova', serif;
+}
+
+.container {
+    padding: 20px 20px !important;
+}
+
+.link-home {
+    color: var(--cor-principal-01) !important;
+}
+
+/* SECTION HERO */
+
+.section-hero {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.section-hero div {
+    flex: 1 1 100px
+}
+
+.img-hero {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+.section-hero-box {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 50px;
+
+    background-color: var(--cor-secundaria-01);
+
+}
+
+.section-hero-box-titulo {
+    margin: 30px auto;
+    max-height: 50px;
+
+    display: flex;
+    align-content: space-around;
+}
+
+.section-hero-box-titulo h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    color: var(--cor-principal-02);
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.446429px;
+    text-align: center;
+    font-size: clamp(1em, 1em + 2.5vw, 2.5em);
+}
+
+.section-hero-boton-anchor {
+    margin: 0 auto;
+    width: 200px;
+    min-height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+
+    background-color: var(--cor-principal-03);
+    color: white;
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.section-hero-boton-box-about {
+    margin-left: 20px;
+
+}
+
+.section-hero-boton-anchor:hover {
+    background-color: var(--cor-principal-01);
+    background-image: url(/assets/icons/down-arrows-white.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 17px;
+}
+
+.section-hero-boton-box-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 50px;
+    height: 50px;
+
+    background-color: black;
+    opacity: 0.2;
+}
+
+/* SECTION SOBRE */
+
+.sobre {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre div {
+    flex: 1 1 200px
+}
+
+.img-profile {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+.sobre-container-texto {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sobre-container-texto hr {
+    background-color: var(--cor-principal-02);
+    width: 100%;
+    margin-top: 20px;
+}
+
+.sobre-container-texto h2 {
+    font-family: var(--font-family-02);
+    color: var(--cor-principal-02);
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.357143px;
+}
+
+.sobre-texto {
+    display: flex;
+    align-items: center;
+
+    font-family: var(--font-family);
+    color: var(--cor-principal-02);
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.sobre-boton-box-portfolio {
+    width: 200px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+
+    border: 1px solid var(--cor-principal-02);
+
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: var(--cor-principal-02);
+    text-decoration: none;
+}
+
+.sobre-boton-box-portfolio:hover {
+    color: var(--cor-secundaria-01);
+    background-color: var(--cor-principal-02);
+}
+
+@media only screen and (min-width: 750px) {
+
+    .container {
+        padding: 10px 10px;
+        margin: 0 auto;
+    }
+
+    .header-container {
+        max-width: 1210px;
+    }
+
+    /* Section HERO */
+
+    .section-hero {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+
+        max-width: 1210px;
+        height: 700px;
+
+        background-image: url(/assets/home/image-homepage-hero.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .img-hero {
+        display: none;
+    }
+
+    .section-hero-box {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 2;
+
+        max-width: 40%;
+        height: 360px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        background-color: var(--cor-secundaria-01);
+    }
+
+    .section-hero-box-titulo {
+        max-width: 390px;
+        max-height: 200px;
+        margin-top: 25px;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .section-hero-box-titulo h1 {
+        font-size: clamp(1em, 1em + 2.5vw, 3em);
+        text-align: left;
+    }
+
+    .section-hero-boton-anchor {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    /* Section SOBRE */
+
+    .sobre {
+        max-width: 1250px;
+        height: 700px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+
+    .sobre div {
+        max-height: 600px;
+        max-width: 540px;
+    }
+
+    .img-profile {
+        max-width: 100%;
+        max-height: 100%;
+        margin-right: 10px;
+    }
+
+    .img-profile img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .sobre-container-texto {
+        max-width: 43%;
+        max-height: 60%;
+
+        display: flex;
+        justify-content: space-around;
+        gap: 40px;
+    }
+
+    .sobre-container-texto hr {
+        margin-top: 0;
+    }
+
+    .sobre-container-texto h2 {
+        font-size: clamp(1em, 1em + 1.3vw, 3em);
+    }
+
+    .sobre-container-texto p {
+        font-size: clamp(0.5em, 1em + 1vw, 1em);
+        line-height: clamp(0.5em, 1em + 1vw, 2em);
+    }
+
+    .sobre-texto {
+        max-height: 36%;
+        max-width: 43%;
+    }
+
+    .sobre-boton-box-portfolio {
+        width: 175px;
+        min-height: 50px;
+    }
+}

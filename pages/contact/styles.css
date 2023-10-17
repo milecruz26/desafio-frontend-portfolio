@@ -1,0 +1,196 @@
+:root {
+    --cor-principal-01: #5FB4A2;
+    --cor-principal-02: #33323D;
+    --cor-principal-03: #203A4C;
+    --cor-secundaria-01: #FAFAFA;
+    --cor-secundaria-02: #EAEAEB;
+    --font-family: 'Public Sans', sans-serif;
+    --font-family-02: 'Ibarra Real Nova', serif;
+}
+
+.link-contact {
+    color: var(--cor-principal-01) !important;
+}
+
+form,
+input,
+select,
+textarea {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    color: black;
+}
+
+.form-box {
+    /* position: relative; */
+    margin: 0 auto;
+
+    height: 600px;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    background: var(--cor-secundaria-01);
+    border: 1px solid var(--cor-principal-02);
+}
+
+.box-h1 {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.form-box h2 {
+
+    font-family: var(--font-family-02);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: var(--cor-principal-02);
+
+}
+
+.form-box label {
+    width: 100%;
+    padding: 10px 0;
+
+    display: inline-flex;
+
+    /* display: flex;
+    align-items: center;
+    align-content: center; */
+
+    background-color: var(--cor-secundaria-01);
+
+}
+
+.form-box label span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100px;
+
+    color: var(--cor-principal-02);
+    opacity: 0.8;
+    font-size: 13px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.input_text {
+    padding: 10px 10px;
+    width: 65%;
+
+    background-color: var(--cor-secundaria-02);
+    color: black;
+    border: 0 solid;
+
+}
+
+.message {
+    padding: 7px 7px;
+    width: 65%;
+
+    background-color: var(--cor-secundaria-02);
+    color: black;
+    border: 0;
+    overflow: hidden;
+    height: 150px;
+}
+
+.button {
+    margin: 0 auto;
+    padding: 0;
+
+    /* position: absolute;
+    top: 530px;
+    left: 250px; */
+
+    width: 162px;
+    height: 48px;
+
+    background: var(--cor-principal-03);
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    color: white;
+    border: 0px;
+
+}
+
+.message:focus,
+.input_text:focus {
+
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: thin;
+}
+
+.button:hover {
+    background-color: var(--cor-principal-01);
+}
+
+@media only screen and (min-width: 750px) {
+    .form-box {
+
+        padding: 0;
+        max-width: 700px;
+        height: 580px;
+        top: 0;
+        margin: 0 auto;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-h1 {
+        margin: 20px auto;
+    }
+
+    .form-box label {
+        width: 100%;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+    }
+
+    .form-box label span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+        width: 100px;
+        padding: 0;
+
+        text-align: none;
+        float: none;
+    }
+
+    .input_text {
+        padding: 10px 10px;
+        width: 500px;
+    }
+
+    .message {
+        padding: 0;
+        width: 500px;
+
+        background-color: #33323d0a;
+        color: black;
+        border: 0;
+        overflow: hidden;
+        height: 150px;
+    }
+
+
+}
